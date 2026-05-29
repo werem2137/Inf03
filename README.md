@@ -1,1 +1,2 @@
 # Inf03
+MIŁEJ NAUKI DO EGZAMINU ;)
