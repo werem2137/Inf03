@@ -1,0 +1,14 @@
+-- Zapytanie 1: kontynenty do bloku bocznego
+SELECT idKontynent, nazwa FROM kontynenty;
+
+-- Zapytanie 2: wszystkie wodospady do tabeli
+SELECT idWodospadu, panstwo, nazwa, wysokosc FROM wodospady;
+
+-- Zapytanie 3: wodospady z wybranego kontynentu, np. Europa id=6
+SELECT idWodospadu, panstwo, nazwa, wysokosc FROM wodospady WHERE idKontynent = 6;
+
+-- Zapytanie 4: wpisanie wyboru turysty i wodospadu
+INSERT INTO wpisy(idWodospadu, idTurysta) VALUES (1, 1);
+
+-- Zapytanie 5: lista turystów do listy rozwijanej
+SELECT idTurysta, nick FROM turysci ORDER BY nick;

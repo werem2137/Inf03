@@ -1,0 +1,52 @@
+* {
+    font-family: garamond, serif;
+    text-align: center;
+}
+header, footer {
+    background-color: skyblue;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 20px;
+}
+main {
+    height: 300px;
+    overflow: auto;
+}
+aside {
+    width: 30%;
+    float: left;
+}
+section {
+    width: 70%;
+    height: 300px;
+    overflow: auto;
+    float: right;
+}
+article {
+    background-color: aliceblue;
+    height: 280px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 20px;
+}
+img {
+    margin: 4px;
+    justify-content: start;
+    float: left;
+}
+table {
+    width: 90%;
+    border: dotted 1px black;
+}
+a {
+    display: inline-block;
+    background-color: dodgerblue;
+    color: white;
+    width: 65%;
+    font-size: 130%;
+    margin: 10px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: royalblue;
+}
